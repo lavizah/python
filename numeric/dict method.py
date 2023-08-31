@@ -1,0 +1,31 @@
+dict1={
+    'name':'Ashfiya',
+    'age':20,
+    'skill':['python','java','html'],
+    'job':'programmer',
+    'salary':90000,
+    }
+print('dict1=',dict1,len(dict1))
+a1=dict1.keys()
+print('a1=',a1)
+a2=dict1.values()
+print('a2=',a2)      
+a3=dict1.items()
+print('a3=',a3)
+a4=dict1.get('name')
+print('a4=',a4)
+a5=dict1.get('age')
+print('a5=',a5)
+a6=dict1.pop('age')
+print('a6=',a6)
+a7=dict1.popitem()
+print('a7=',a7)
+print('dict1=',dict1,len(dict1))
+a8=dict1.popitem()
+print('a8=',a8)
+print('dict1=',dict1,len(dict1))
+a9=dict1.setdefault('age',20)
+print('a9=',a9)
+print('dict1=',dict1,len(dict1))
+
+

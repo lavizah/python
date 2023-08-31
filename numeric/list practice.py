@@ -1,0 +1,47 @@
+list1=[5,1,3,4,2,5,3]
+print('list1=',list1,len(list1))
+l1=list1[4]
+print('l1=',l1)
+l2=list1[-3]
+print('l2=',l2)
+l3=list1[0]
+print('l3=',l3)
+list2=['python','java','c++','html','css','.net']
+print('list2=',list2,len(list2))
+l4=list2[2]
+print('l4=',l4)
+l5=list2[-1]
+print('l5=',l5)
+l6=list2[4]
+print('l6=',l6)
+list3=['ashfiya',['python','java'],
+       'lavizah',['html','c++']
+      ]
+print('list3=',list3,len(list3))
+l7=list3[-1]
+print('l7=',l7)
+l8=list3[-1][-1]
+print('l8=',l8)
+l9=list3[1][0]
+print('l9=',l9)
+l10=list3[-1][0]
+print('l10=',l10)
+list4=['ashfiya',['python',1991,[3.1,3.11,(1,2)]],['java',1992,[1.8,1.9]],
+       'lavizah',['html',2001,[2.3,2.4]],['css',2000,[4.5,4.7]]
+       ]
+print('list4=',list4,len(list4))
+l11=list4[-1][-1][-1]
+print('l11=',l11)
+l12=list4[-2][-1][-1]
+print('l12=',l12)
+l13=list4[0][3]
+print('l13=',l13)
+l14=list4[1][2][0]
+print('l14=',l14)
+l15=list4[-3][4]
+print('l15=',l15)
+l16=list4[1][2][1]
+print('l16=',l16)
+l17=list4[1][2][2][1]
+print('l17=',l17)
+

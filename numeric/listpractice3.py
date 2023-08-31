@@ -1,0 +1,32 @@
+list1=[
+    'ashfiya',['python','java','html','c++',[3.1,3.11,(2000,2001)]],
+    'lavizah',['python','java','html','sql',[1.2,1.3,(2002,2003)]],
+    ]
+print('list1=',list1,len(list1))
+m1=list1[1]
+print('m1=',m1)
+m2=list1[-2]
+print('m2=',m2)
+m3=list1[-1][-1]
+print('m3=',m3)
+m4=list1[-3][-1][-1]
+print('m4=',m4)
+m5=list1[-1][-1][-1][-1]
+print('m5=',m5)
+m6=list1[-1][-2]
+print('m6=',m6)
+m7=list1[-1][-1][-2]
+print('m7=',m7)
+m8=list1[-1][-2][-2]
+print('m8=',m8)
+print()
+print('slicing')
+m9=list1[1][1:4]
+print('m9=',m9)
+m10=list1[-1][1:4][1:][1][2]
+print('m10=',m10)
+m11=list1[2][-1]
+print('m11=',m11)
+m12=list1[3][0][1]
+print('m12=',m12)
+

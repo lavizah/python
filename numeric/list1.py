@@ -1,0 +1,32 @@
+list1=[4,3,2,5,2,4,3]
+print('list1=',list1,len(list1))
+f1=list1[3]
+print('f1=',f1)
+f2=list1[-2]
+print('f2=',f2)
+f3=list1[2]
+print('f3=',f3)
+list2=[
+    'python',[3.1,3.11,(1998,1999)],
+    'java',[2.4,2.6,(1776,1678)],
+    'html',[1.2,1.5,(1765,1867)],
+    'c++',[4.3,4.5,(2001,2002)],
+    'css',[8.2,8.5,(1679,1689)]
+    ]
+print('list2=',list2,len(list2))
+f4=list2[2]
+print('f4=',f4)
+f5=list2[-1]
+print('f5=',f5)
+f6=list2[-4]
+print('f6=',f6)
+f7=list2[-9][-1]
+print('f7=',f7)
+f8=list2[-2]
+print('f8=',f8)
+f9=list2[-1][-1]
+print('f9=',f9)
+f10=list2[1][-1][-1]
+print('f10=',f10)
+f11=list2[-1][-1][0]
+print('f11=',f11)

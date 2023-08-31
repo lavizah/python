@@ -1,0 +1,30 @@
+dict1={
+    'School':"St.Ignatius's high school",
+    'Boys':['zaid','areeb','kaif'],
+    'Girls':['ashfiya','lavizah','mariyam'],
+    'Skills':['learning','reading','writing'],
+    'Age':20,
+    'Mobile':9872242638,
+    }
+print('dict1=',dict1,len(dict1))
+a1=dict1['School']
+print('a1=',a1)
+a2=dict1['Boys']
+print('a2=',a2)
+a3=dict1['Boys'][-2]
+print('a3=',a3)
+a4=dict1['Girls']
+print('a4=',a4)
+a5=dict1['Girls'][-1][3]
+print('a5=',a5)
+a6=dict1['Skills'][0]
+print('a6=',a6)
+a7=dict1['Age']
+print('a7=',a7)
+a8=dict1['Mobile']
+print('a8=',a8)
+dict1['Salary']=50000
+print('dict1=',dict1,len(dict1))
+dict1['Address']='Worli'
+print('dict1=',dict1,len(dict1))
+
