@@ -1,0 +1,14 @@
+dict1={
+    'name':'ashfiya',
+    'age':22,
+    'skill':['python','java','html','c++'],
+    'job':'programmer',
+    'salary':50000,
+    'hobbies':['reading','singing'],
+    'address':'worli',
+    }
+print('dict1=',dict1,len(dict1))
+a1=dict1.keys()
+print('a1=',a1)
+a2=dict1.values()
+print(a2)
