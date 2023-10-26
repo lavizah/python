@@ -1,0 +1,13 @@
+dict1={
+    'name':'lavizah',
+    'age':21,
+    'skill':['python','java']
+    }
+i1=iter(dict1)
+print(i1)
+a1=i1.__next__()
+print(a1,'-->',dict1[a1])
+a2=i1.__next__()
+print(a2,'-->',dict1[a2])
+a3=i1.__next__()
+print(a3,'-->',dict1[a3])
